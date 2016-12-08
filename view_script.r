@@ -1,6 +1,8 @@
 
 
 #### View Function
+install.packages('dplyr')
+require(dplyr)
 view <- function (x,y=nrow(x)){
   
   # So to not crash excel or R. If data.frame is > 10000 records or 20 columns,
