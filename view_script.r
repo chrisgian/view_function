@@ -1,7 +1,7 @@
 
 
 #### View Function
-install.packages('dplyr')
+#install.packages('dplyr')
 require(dplyr)
 view <- function (x,y=nrow(x)){
   
